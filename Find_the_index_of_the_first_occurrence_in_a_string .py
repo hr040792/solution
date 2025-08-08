@@ -1,5 +1,5 @@
 def strStr(haystack: str, needle: str) -> int:
-    # Edge case: if needle is empty, return 0 as per LeetCode definition
+    # if needle is empty, return 0 as per LeetCode definition
     if needle == "":
         return 0
 
@@ -15,3 +15,4 @@ def strStr(haystack: str, needle: str) -> int:
 
     # If needle is not found
     return -1
+
